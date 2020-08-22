@@ -19,7 +19,7 @@ for i = drange(0:cardsDrawn - 1)
     %gotta try to disguise ourselves
     %from here we just kind of do the same thing the easy and fun way,
     %take the total cards and subtract each card drawn, then multiply it by
-    %the previously known combinations
+    %the previously possible cominations
     totalCombinations = totalCombinations * (totalCards - i);
 end
 

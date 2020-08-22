@@ -1,5 +1,8 @@
 %i think im plotting lines
 
+%OMG YOU CAN CLEAR WORKSPACE AT START OF SCRIPT!!!!!!!!!!!!!!!
+clear 
+
 %lets define these lines in terms of x, b
 lines = [ 
     -5, 3
@@ -37,3 +40,6 @@ extremes = [
 
 %plot it cuz the teacher said so
 plot(x1,y1,x2,y2,x3,y3);
+
+%clear excess garbage 
+clear lines

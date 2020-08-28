@@ -1,4 +1,20 @@
-%i think im plotting lines
+%% Learning Arrays
+%
+% Description: I think I am supposed to be plotting lines using arrays
+%
+% Assumptions: I am plotting lines
+%
+% Inputs 
+%   lines = [ 
+%       -5, 3
+%       7, -6
+%        2, 12
+%       ];
+%
+% $Revision: R2020a$ 
+% $Author: Viropexis
+% $Date: August 27, 2020$
+%---------------------------------------------------------
 
 %OMG YOU CAN CLEAR WORKSPACE AT START OF SCRIPT!!!!!!!!!!!!!!!
 clear 

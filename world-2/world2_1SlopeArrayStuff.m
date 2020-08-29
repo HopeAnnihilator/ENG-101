@@ -49,13 +49,16 @@ y3 = lines(3, 1) * x3 + lines(3,2);
 means = [mean(y1) mean(y2) mean(y3)];
 %calculate mins and maxes in an array in terms of min,max of y points
 extremes = [
-    min(y1) max(y1)
-    min(y2) max(y2)
-    min(y3) max(y3)
+    "miny" min(y1) min(y2) min(y3)
+    "maxy" max(y1) max(y2) max(y3)
 ];
 
 %plot it cuz the teacher said so
 plot(x1,y1,x2,y2,x3,y3);
 
-%clear excess garbage 
-clear lines
+%disp output 
+disp('means')
+disp(means)
+
+disp("extremes")
+disp(extremes)

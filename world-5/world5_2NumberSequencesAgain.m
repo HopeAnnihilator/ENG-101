@@ -26,3 +26,4 @@ while strlength(string(sequenceArray(end))) < 6
 end
 
 %% Display first number with 6 digits
+disp(sequenceArray(end));
